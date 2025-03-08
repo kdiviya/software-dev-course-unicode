@@ -23,5 +23,5 @@ and calculate the absolute difference between them.*/
 let inputString1 = "Cat";
 let index1 = 0;
 let index2 = 2;
-let codePointDifference = inputString1.charCodeAt(index1) - inputString1.charCodeAt(index2);
+let codePointDifference = Math.abs(inputString1.charCodeAt(index1) - inputString1.charCodeAt(index2));
 console.log("The code point difference is " +codePointDifference);
